@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    background-color: darkgrey;
+}
+
+.container   {
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap-reverse;
+   }        
+   body {
+    background-color: aquamarine;
+   }
+   .item1 {
+    height: 300px;
+    width: 10px;
+    border: solid 2px black;
+    flex-grow: 1;
+   }
+   .item3 {
+    height: 400px;
+    width: 400px;
+    border: solid 2px black;
+    flex-grow: 3;
+   }
+
+   .navbar {
+    background-color: gray;
+   }
