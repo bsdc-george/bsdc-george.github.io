@@ -1,3 +1,36 @@
-body {
-    background-color: darkgoldenrod;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+.item1 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    flex-grow: 1;
+   }
+   .container   {
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap-reverse;
+   }
+
+   .container {
+    height: 800px;
+    display: flex;
+    width: 800px;
+    background-color: orange;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("BOB.png");
+    background-repeat: no-repeat;
+   }
+
+   img {
+    max-width: 100%;
+    object-fit: cover;
+    flex-basis: 30%;
+   }
