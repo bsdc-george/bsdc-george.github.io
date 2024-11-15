@@ -39,6 +39,7 @@ button {
     height: 75px;
     font-size: x-large;
     cursor: pointer;
+    margin: 15px;
    
 
     
@@ -75,9 +76,9 @@ img {
     width: 250px;
     border-radius: 50%;
     padding: 30px;
-    position: absolute;
-    top: 60px;
-    left: 1400px;
+    position: fixed;
+    top: 10px;
+    left: 80px;
     transform: rotate(325deg);
     
 }
